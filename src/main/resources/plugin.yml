@@ -1,0 +1,16 @@
+name: BasicPlugin
+api-version: 1.16
+version: 1.1
+author: MeiMei
+main: edu.koepcke3.spigot.christmastime.Main
+depend: [NoteBlockAPI]
+commands:
+  blacklist:
+    description: removes player from serverwide christmas music playlist
+    usage: /blacklist [add/remove] (player)
+  christmasweather:
+    description: aa
+    usage: /christmasweatehr SET_WEATHER [NONE,SNOW,SNOW_STORM] /christmasweather TOGGLE_WEATHER /christmasweather ADD_MUSICBLACKLIST [name] /christmasweather REMOVE_MUSICBLACKLIST [name]
+  christmashead:
+    description: head stuff decoration ahh
+    usage: /christmashead TRADE [base64 value (bottom Value at minecraft-heads)] /christmashead GENERATE [value] [count] [player] [lore]
