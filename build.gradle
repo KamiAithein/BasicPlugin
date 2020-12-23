@@ -1,0 +1,40 @@
+
+plugins {
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.4.0'
+    id 'com.github.johnrengelman.shadow' version '2.0.4'
+}
+
+group 'edu.koepcke3'
+version '1.1'
+
+repositories {
+    mavenLocal()
+    jcenter()
+    mavenCentral()
+    maven {
+        name = 'Spigot-Repo'
+        url = 'https://hub.spigotmc.org/nexus/content/groups/public/'
+    }
+    maven {
+        url 'https://jitpack.io'
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation "org.spigotmc:spigot-api:1.14.4-R0.1-SNAPSHOT"
+    implementation files("C:\\Users\\k3nne\\Desktop\\testspigot\\Spigot\\Spigot-Server\\target\\spigot-1.16.4-R0.1-SNAPSHOT.jar")
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.0"
+
+    compile group: 'com.github.koca2000', name: 'NoteBlockAPI', version: '-SNAPSHOT'
+    shadow "org.jetbrains.kotlin:kotlin-stdlib:1.4.0"
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
