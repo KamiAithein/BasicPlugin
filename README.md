@@ -12,18 +12,18 @@ This is my first attempt at a plugin (1.16) and is therefore not an example of h
 This is not recommended for public use on your own server as it was just an experiment, but here is a list of commands on the server that you can figure out by looking at the source code.
   + christmasweather
     + SET_WEATHER
-      + NONE
-      + SNOW
-      + SNOW_STORM
+     + NONE
+     + SNOW
+     + SNOW_STORM
     + TOGGLE_WEATHER
     + ADD_MUSICBLACKLIST
-      + <player>
+     + <player>
     + REMOVE_MUSICBLACKLIST
-      + <player>
+     + <player>
   + christmashead
     + TRADE
-      + <value>
+     + <value>
     + GENERATE
-      + <value>
+     + <value>
     + GIVE
-      + <item_id>
+     + <item_id>
