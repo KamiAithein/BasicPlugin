@@ -13,9 +13,9 @@ This is not recommended for public use on your own server as it was just an expe
   + christmasweather
     + SET_WEATHER \[NONE, SNOW, SNOW_STORM\]
     + TOGGLE_WEATHER
-    + ADD_MUSICBLACKLIST \[<player>\]
-    + REMOVE_MUSICBLACKLIST \[<player>\]
+    + ADD_MUSICBLACKLIST \[\<player\>\]
+    + REMOVE_MUSICBLACKLIST \[\<player\>\]
   + christmashead
-    + TRADE \[<value>\]
-    + GENERATE \[<value>\]
-    + GIVE \[<item_id>\]
+    + TRADE \[\<value\>\]
+    + GENERATE \[\<value\>\]
+    + GIVE \[\<item_id\>\]
