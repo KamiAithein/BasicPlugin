@@ -11,19 +11,11 @@ This is my first attempt at a plugin (1.16) and is therefore not an example of h
 ## Commands
 This is not recommended for public use on your own server as it was just an experiment, but here is a list of commands on the server that you can figure out by looking at the source code.
   + christmasweather
-    + SET_WEATHER
-     + NONE
-     + SNOW
-     + SNOW_STORM
+    + SET_WEATHER \[NONE, SNOW, SNOW_STORM\]
     + TOGGLE_WEATHER
-    + ADD_MUSICBLACKLIST
-     + <player>
-    + REMOVE_MUSICBLACKLIST
-     + <player>
+    + ADD_MUSICBLACKLIST \[<player>\]
+    + REMOVE_MUSICBLACKLIST \[<player>\]
   + christmashead
-    + TRADE
-     + <value>
-    + GENERATE
-     + <value>
-    + GIVE
-     + <item_id>
+    + TRADE \[<value>\]
+    + GENERATE \[<value>\]
+    + GIVE \[<item_id>\]
